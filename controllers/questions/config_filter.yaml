@@ -12,8 +12,13 @@ scopes:
       - is_public <> 1
       - is_public = 1
   is_featured:
-    label: Is Approved?
+    label: Is Featured?
     type: switch
     conditions: 
       - is_featured <> 1
       - is_featured = 1
+  category:
+    label: Category
+    modelClass: RedMarlin\Faq\Models\Category
+    conditions: category_id in (:filtered)
+    nameFrom: title

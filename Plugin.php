@@ -31,6 +31,8 @@ class Plugin extends PluginBase
             'RedMarlin\Faq\Components\FaqLast' => 'FaqLast',
             'RedMarlin\Faq\Components\FaqFeatured' => 'FaqFeatured',
             'RedMarlin\Faq\Components\FaqAll' => 'FaqAll',
+            'RedMarlin\Faq\Components\FaqAllCategory' => 'FaqAllCategory',
+            'RedMarlin\Faq\Components\FaqListCategories' => 'FaqListCategories',
     ];
     }
     

@@ -1,0 +1,9 @@
+{% set faqCategories = __SELF__.faqCategories %}
+
+<ul>
+{% for faq in faqCategories %}
+    <li>
+        <a href="{{ faq.url }}">{{ faq.title }}</a>
+    </li>
+{% endfor %}
+</ul>
